@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body,
+button,
+textarea,
+ul {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+img {
+  margin: 10px 0;
+}
