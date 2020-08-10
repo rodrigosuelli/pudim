@@ -15,7 +15,7 @@ function generateImgs() {
     appContainer.appendChild(pudimImg);
 
     pudimImg.scrollIntoView();
-  }, 100);
+  }, 10);
   
   btn.removeEventListener('click', generateImgs);
 }
